@@ -1,4 +1,4 @@
-![Kega Fusion EX](images/KEGA_logo.png)
+![Kega Fusion EX](images/KEGA_EX_logo.png)
 # Kega Fusion EX
 
 A ready-to-run copy of **Kega Fusion v3.64** (Windows) — the Sega SG-1000 / SC-3000 / Master System / Game Gear / Mega Drive (Genesis) / Sega CD / 32X / Pico emulator by Steve Snake — repackaged as **Fusion EX**, with two drop-in wrappers and a lightly modified executable that fix the biggest annoyances on modern Windows.
