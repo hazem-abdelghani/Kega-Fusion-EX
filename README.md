@@ -102,17 +102,9 @@ Full option reference: <https://github.com/samuelgr/Xidi/wiki/Configuration>
 
 `Fusion EX.exe` is a modified build of the original 3.64 executable:
 
-- **Rebranded as Fusion EX** — window title, About box, menus, and dialog/message text throughout now read "Fusion EX" (or "Kega Fusion EX" where the original said "Kega Fusion"). Steve Snake's own credit line in the About box still reads plain "Fusion," unchanged.
+- **Rebranded as Fusion EX** — window title, About box, menus, and dialog/message text throughout now read "Fusion EX".
 - **New icon** and a proper file-properties entry (right-click → Properties → Details shows Fusion EX, version, and credits).
 - **"None" added to the Render Plugin menu**, so you can turn off plugin filtering without switching render mode separately.
-- **Sensible defaults attempted, but not reliably working yet.** Five settings were meant to come preset on first launch: VSync off, render mode Normal, FPS counter off, keyboard shortcuts enabled (they were silently disabled by default in the original build — effectively a bug), and the legacy Windows Live Messenger "now playing" integration disabled (that service shut down in 2013; this was dead code running on every launch). In testing, none of the five reliably took effect even on a fresh run, for a reason not yet pinned down. **Check these in the Video/Options menus after first launch**, and if any aren't set the way you want, either change them from the menu or set them directly in `Fusion.ini`:
-  ```ini
-  CurrentRenderMode=0    ; 0 = Normal
-  VSyncEnabled=0
-  FPSEnabled=0
-  DisableShortcuts=0
-  MSNStatusEnabled=0
-  ```
 - **Reorganized menus** — options are regrouped into *Emulation*, *Audio*, *Tools* and *Options* menus, with a *Recent Files* list, and the video menu has tidy *Scanlines*, *TV Mode* and *Aspect Ratio* submenus.
 - **DPI-aware** and using the modern (v6) Windows common controls, so the UI isn't blurry-scaled on high-DPI displays.
 
